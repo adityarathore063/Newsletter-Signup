@@ -34,7 +34,7 @@ app.post("/", function (req, res) {
 
   const options = {
     method: "POST",
-    auth: "adityarathore063:cf6e847092272a5f66a0a0056f014b5a-us6",
+    auth: "adityarathore063:API_KEY",
   };
 
   const request = https.request(url, options, function (response) {
